@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: seven-server-test
+  cloud:
+    nacos:
+      config:
+        server-addr: http://127.0.0.1:8001
+        group: DEFAULT_GROUP
+        prefix: seven-server-test
+        file-extension: yaml
+      discovery:
+        server-addr: http://127.0.0.1:8001
+
+logging:
+  level:
+    cc.seven.server.test.feign.IRemoteService: debug
+    org:
+      springframework:
+        boot:
+          actuate:
+            endpoint:
+              EndpointId: error
+    com:
+      alibaba:
+        cloud:
+          nacos:
+            client:
+              NacosPropertySourceBuilder: error
+

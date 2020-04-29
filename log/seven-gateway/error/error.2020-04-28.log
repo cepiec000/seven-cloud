@@ -1,0 +1,9 @@
+2020-04-28 14:25:11 ERROR seven-gateway boundedElastic-71 cc.seven.gateway.common.controller.FallbackController 服务访问超时，请稍后再试，目标微服务：seven-server-test
+2020-04-28 14:25:25 ERROR seven-gateway boundedElastic-42 cc.seven.gateway.common.controller.FallbackController 服务访问超时，请稍后再试，目标微服务：seven-server-test
+2020-04-28 14:25:44 ERROR seven-gateway boundedElastic-74 cc.seven.gateway.common.controller.FallbackController 服务访问超时，请稍后再试，目标微服务：seven-server-test
+2020-04-28 14:25:51 ERROR seven-gateway boundedElastic-74 cc.seven.gateway.common.controller.FallbackController 服务访问超时，请稍后再试，目标微服务：seven-server-test
+2020-04-28 14:25:57 ERROR seven-gateway boundedElastic-74 cc.seven.gateway.common.controller.FallbackController 服务访问超时，请稍后再试，目标微服务：seven-server-test
+2020-04-28 14:26:02 ERROR seven-gateway boundedElastic-74 cc.seven.gateway.common.controller.FallbackController 服务访问超时，请稍后再试，目标微服务：seven-server-test
+2020-04-28 14:26:45 ERROR seven-gateway boundedElastic-42 cc.seven.gateway.common.controller.FallbackController 服务访问超时，请稍后再试，目标微服务：seven-server-test
+2020-04-28 14:28:22 ERROR seven-gateway boundedElastic-74 cc.seven.gateway.common.controller.FallbackController 服务访问超时，请稍后再试，目标微服务：seven-server-test
+2020-04-28 14:28:25 ERROR seven-gateway boundedElastic-74 cc.seven.gateway.common.controller.FallbackController 服务访问超时，请稍后再试，目标微服务：seven-server-test

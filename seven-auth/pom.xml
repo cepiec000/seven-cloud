@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>seven-cloud</artifactId>
+        <groupId>cc.seven.cloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>seven-auth</artifactId>
+    <name>seven-auth</name>
+    <description>SEVEN-Cloud认证服务器</description>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <seven-cloud.version>1.0-SNAPSHOT</seven-cloud.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>cc.seven.cloud</groupId>
+            <artifactId>seven-common-redis</artifactId>
+            <version>${seven-cloud.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cc.seven.cloud</groupId>
+            <artifactId>seven-common-datasource</artifactId>
+            <version>${seven-cloud.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cc.seven.cloud</groupId>
+            <artifactId>seven-common-security</artifactId>
+            <version>${seven-cloud.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.whvcse</groupId>
+            <artifactId>easy-captcha</artifactId>
+            <version>${easy-captcha.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>${logstash-logback-encoder.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.xkcoding.justauth</groupId>
+            <artifactId>justauth-spring-boot-starter</artifactId>
+            <version>1.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

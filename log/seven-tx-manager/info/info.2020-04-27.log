@@ -1,0 +1,195 @@
+2020-04-27 10:13:27 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-27 10:13:28 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-27 10:13:30 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-27 10:13:30 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-27 10:13:30 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 322ms. Found 1 JPA repository interfaces.
+2020-04-27 10:13:31 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-27 10:13:31 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-27 10:13:31 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-27 10:13:31 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-04-27 10:13:31 INFO  springAppName_IS_UNDEFINED main org.springframework.cloud.context.scope.GenericScope BeanFactory id=4fa7ab2c-40aa-34f9-b968-84b366436488
+2020-04-27 10:13:32 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-27 10:13:32 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8501 (http)
+2020-04-27 10:13:32 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8501"]
+2020-04-27 10:13:32 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-27 10:13:32 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-27 10:13:32 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-27 10:13:32 INFO  springAppName_IS_UNDEFINED main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3737 ms
+2020-04-27 10:13:33 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-27 10:13:34 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-27 10:13:34 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2020-04-27 10:13:34 INFO  springAppName_IS_UNDEFINED main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-27 10:13:34 INFO  springAppName_IS_UNDEFINED main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-27 10:13:34 INFO  springAppName_IS_UNDEFINED main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-27 10:13:34 INFO  springAppName_IS_UNDEFINED main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-27 10:13:35 INFO  springAppName_IS_UNDEFINED main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-27 10:13:35 INFO  springAppName_IS_UNDEFINED main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-27 10:13:37 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db Properties: {"allowPoolSuspension":false,"autoCommit":true,"connectionTimeout":30000,"dataSourceProperties":{},"driverClassName":"com.mysql.cj.jdbc.Driver","enabled":true,"healthCheckProperties":{},"idleTimeout":600000,"initializationFailTimeout":1,"isolateInternalQueries":false,"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/seven_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8","leakDetectionThreshold":0,"maxLifetime":1800000,"maximumPoolSize":-1,"minimumIdle":-1,"onlyError":true,"password":"root","readOnly":false,"registerMbeans":false,"username":"root","validationTimeout":5000}
+2020-04-27 10:13:37 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2020-04-27 10:13:37 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2020-04-27 10:13:37 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db prepared.
+2020-04-27 10:13:37 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-27 10:13:37 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-27 10:13:37 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-27 10:13:37 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-04-27 10:13:39 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2020-04-27 10:13:39 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8501"]
+2020-04-27 10:13:39 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8501 (http) with context path ''
+2020-04-27 10:13:40 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication Started SevenTxManagerApplication in 13.699 seconds (JVM running for 16.157)
+2020-04-27 10:13:41 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcServerInitializer Socket started on 127.0.0.1:8888 
+2020-04-27 10:13:41 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f] REGISTERED
+2020-04-27 10:13:41 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f] BIND: /127.0.0.1:8888
+2020-04-27 10:13:41 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] ACTIVE
+2020-04-27 10:13:41 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-04-27 10:13:41 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-04-27 10:13:41 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 3, max machine id is: 2251799813685246
+2020-04-27 10:14:44 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0xd8a95bf1, L:/127.0.0.1:8888 - R:/127.0.0.1:49268]
+2020-04-27 10:14:44 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 10:14:44 INFO  springAppName_IS_UNDEFINED tm-rpc-service-0 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 10:14:44 INFO  springAppName_IS_UNDEFINED tm-rpc-service-0 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 4, max machine id is: 2251799813685246
+2020-04-27 10:14:44 INFO  springAppName_IS_UNDEFINED tm-rpc-service-1 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 10:14:53 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-27 10:14:53 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-04-27 10:14:53 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 9 ms
+2020-04-27 10:14:57 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-7 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: c70f525082a543d393deb6210ee1ec30
+2020-04-27 10:14:59 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-8 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: c70f525082a543d393deb6210ee1ec30
+2020-04-27 10:15:01 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: c70f525082a543d393deb6210ee1ec30
+2020-04-27 10:15:02 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-4 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: c70f525082a543d393deb6210ee1ec30
+2020-04-27 15:34:27 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0x1ed6072b, L:/127.0.0.1:8888 - R:/127.0.0.1:57450]
+2020-04-27 15:34:27 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 15:34:28 INFO  springAppName_IS_UNDEFINED tm-rpc-service-2 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 15:34:28 INFO  springAppName_IS_UNDEFINED tm-rpc-service-2 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 5, max machine id is: 2251799813685246
+2020-04-27 15:34:28 INFO  springAppName_IS_UNDEFINED tm-rpc-service-3 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 15:40:09 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0x805e1999, L:/127.0.0.1:8888 - R:/127.0.0.1:58053]
+2020-04-27 15:40:09 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 15:40:09 INFO  springAppName_IS_UNDEFINED tm-rpc-service-4 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 15:40:09 INFO  springAppName_IS_UNDEFINED tm-rpc-service-4 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 6, max machine id is: 2251799813685246
+2020-04-27 15:40:09 INFO  springAppName_IS_UNDEFINED tm-rpc-service-5 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 15:48:26 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0xb021c741, L:/127.0.0.1:8888 - R:/127.0.0.1:59213]
+2020-04-27 15:48:26 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 15:48:26 INFO  springAppName_IS_UNDEFINED tm-rpc-service-6 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 15:48:26 INFO  springAppName_IS_UNDEFINED tm-rpc-service-6 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 7, max machine id is: 2251799813685246
+2020-04-27 15:48:26 INFO  springAppName_IS_UNDEFINED tm-rpc-service-7 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 15:54:02 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0xb40512d6, L:/127.0.0.1:8888 - R:/127.0.0.1:60026]
+2020-04-27 15:54:02 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 15:54:02 INFO  springAppName_IS_UNDEFINED tm-rpc-service-8 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 15:54:02 INFO  springAppName_IS_UNDEFINED tm-rpc-service-8 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 8, max machine id is: 2251799813685246
+2020-04-27 15:54:02 INFO  springAppName_IS_UNDEFINED tm-rpc-service-9 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 16:14:35 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0xf9dd765e, L:/127.0.0.1:8888 - R:/127.0.0.1:62400]
+2020-04-27 16:14:35 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 16:14:35 INFO  springAppName_IS_UNDEFINED tm-rpc-service-10 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 16:14:35 INFO  springAppName_IS_UNDEFINED tm-rpc-service-10 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 9, max machine id is: 2251799813685246
+2020-04-27 16:14:35 INFO  springAppName_IS_UNDEFINED tm-rpc-service-11 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 16:26:19 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0x7dddbe1a, L:/127.0.0.1:8888 - R:/127.0.0.1:63656]
+2020-04-27 16:26:19 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 16:26:19 INFO  springAppName_IS_UNDEFINED tm-rpc-service-12 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 16:26:19 INFO  springAppName_IS_UNDEFINED tm-rpc-service-12 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 10, max machine id is: 2251799813685246
+2020-04-27 16:26:19 INFO  springAppName_IS_UNDEFINED tm-rpc-service-13 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 17:02:31 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0xe1a6f8b3, L:/127.0.0.1:8888 - R:/127.0.0.1:52585]
+2020-04-27 17:02:31 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 17:02:31 INFO  springAppName_IS_UNDEFINED tm-rpc-service-14 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 17:02:31 INFO  springAppName_IS_UNDEFINED tm-rpc-service-14 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 11, max machine id is: 2251799813685246
+2020-04-27 17:02:31 INFO  springAppName_IS_UNDEFINED tm-rpc-service-15 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 17:04:45 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0x1f7f4751, L:/127.0.0.1:8888 - R:/127.0.0.1:52898]
+2020-04-27 17:04:45 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 17:04:46 INFO  springAppName_IS_UNDEFINED tm-rpc-service-16 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 17:04:46 INFO  springAppName_IS_UNDEFINED tm-rpc-service-16 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 12, max machine id is: 2251799813685246
+2020-04-27 17:04:46 INFO  springAppName_IS_UNDEFINED tm-rpc-service-17 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 17:10:18 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ: [id: 0x35b45ea2, L:/127.0.0.1:8888 - R:/127.0.0.1:53629]
+2020-04-27 17:10:18 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x7def529f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 17:10:18 INFO  springAppName_IS_UNDEFINED tm-rpc-service-18 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 17:10:19 INFO  springAppName_IS_UNDEFINED tm-rpc-service-18 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 13, max machine id is: 2251799813685246
+2020-04-27 17:10:19 INFO  springAppName_IS_UNDEFINED tm-rpc-service-19 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 18:21:40 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-27 18:21:42 INFO  springAppName_IS_UNDEFINED main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\chendongdong\nacos\config
+2020-04-27 18:21:42 INFO  springAppName_IS_UNDEFINED main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2020-04-27 18:21:46 INFO  springAppName_IS_UNDEFINED main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='null.properties,DEFAULT_GROUP'}]}
+2020-04-27 18:21:46 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-27 18:21:47 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-27 18:21:47 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-27 18:21:47 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 92ms. Found 1 JPA repository interfaces.
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.springframework.cloud.context.scope.GenericScope BeanFactory id=dfeb9ae7-0a1a-379f-909b-2dd562b5b70c
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8501 (http)
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8501"]
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-27 18:21:48 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-27 18:21:49 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-27 18:21:49 INFO  springAppName_IS_UNDEFINED main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 2791 ms
+2020-04-27 18:21:50 INFO  springAppName_IS_UNDEFINED main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-27 18:21:50 INFO  springAppName_IS_UNDEFINED main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2020-04-27 18:21:50 INFO  springAppName_IS_UNDEFINED main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-27 18:21:51 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-27 18:21:51 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-27 18:21:51 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2020-04-27 18:21:51 INFO  springAppName_IS_UNDEFINED main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-27 18:21:52 INFO  springAppName_IS_UNDEFINED main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-27 18:21:52 INFO  springAppName_IS_UNDEFINED main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-27 18:21:52 INFO  springAppName_IS_UNDEFINED main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-27 18:21:53 INFO  springAppName_IS_UNDEFINED main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-27 18:21:53 INFO  springAppName_IS_UNDEFINED main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-27 18:21:55 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db Properties: {"allowPoolSuspension":false,"autoCommit":true,"connectionTimeout":30000,"dataSourceProperties":{},"driverClassName":"com.mysql.cj.jdbc.Driver","enabled":true,"healthCheckProperties":{},"idleTimeout":600000,"initializationFailTimeout":1,"isolateInternalQueries":false,"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/seven_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8","leakDetectionThreshold":0,"maxLifetime":1800000,"maximumPoolSize":-1,"minimumIdle":-1,"onlyError":true,"password":"root","readOnly":false,"registerMbeans":false,"username":"root","validationTimeout":5000}
+2020-04-27 18:21:55 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2020-04-27 18:21:55 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2020-04-27 18:21:55 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db prepared.
+2020-04-27 18:21:55 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-27 18:21:55 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-27 18:21:55 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-27 18:21:55 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-04-27 18:21:57 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 21 endpoint(s) beneath base path '/actuator'
+2020-04-27 18:21:57 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8501"]
+2020-04-27 18:21:57 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8501 (http) with context path ''
+2020-04-27 18:21:57 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication Started SevenTxManagerApplication in 21.57 seconds (JVM running for 24.514)
+2020-04-27 18:21:58 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcServerInitializer Socket started on 127.0.0.1:8888 
+2020-04-27 18:21:58 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a] REGISTERED
+2020-04-27 18:21:58 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a] BIND: /127.0.0.1:8888
+2020-04-27 18:21:59 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] ACTIVE
+2020-04-27 18:21:59 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-04-27 18:21:59 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-04-27 18:21:59 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 14, max machine id is: 2251799813685246
+2020-04-27 18:21:59 INFO  springAppName_IS_UNDEFINED main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-localhost_8848] [subscribe] null.properties+DEFAULT_GROUP
+2020-04-27 18:21:59 INFO  springAppName_IS_UNDEFINED main com.alibaba.nacos.client.config.impl.CacheData [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=null.properties, group=DEFAULT_GROUP, cnt=1
+2020-04-27 18:24:36 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ: [id: 0x318ac484, L:/127.0.0.1:8888 - R:/127.0.0.1:61727]
+2020-04-27 18:24:36 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 18:24:36 INFO  springAppName_IS_UNDEFINED tm-rpc-service-0 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 18:24:36 INFO  springAppName_IS_UNDEFINED tm-rpc-service-0 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 15, max machine id is: 2251799813685246
+2020-04-27 18:24:36 INFO  springAppName_IS_UNDEFINED tm-rpc-service-1 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 18:36:31 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ: [id: 0xba9e5924, L:/127.0.0.1:8888 - R:/127.0.0.1:63348]
+2020-04-27 18:36:31 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 18:36:31 INFO  springAppName_IS_UNDEFINED tm-rpc-service-2 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 18:36:31 INFO  springAppName_IS_UNDEFINED tm-rpc-service-2 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 16, max machine id is: 2251799813685246
+2020-04-27 18:36:31 INFO  springAppName_IS_UNDEFINED tm-rpc-service-3 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 18:45:22 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ: [id: 0x51ffec51, L:/127.0.0.1:8888 - R:/127.0.0.1:64861]
+2020-04-27 18:45:22 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 18:45:22 INFO  springAppName_IS_UNDEFINED tm-rpc-service-4 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 18:45:22 INFO  springAppName_IS_UNDEFINED tm-rpc-service-4 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 17, max machine id is: 2251799813685246
+2020-04-27 18:45:22 INFO  springAppName_IS_UNDEFINED tm-rpc-service-5 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 18:47:26 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ: [id: 0x3c90d0d2, L:/127.0.0.1:8888 - R:/127.0.0.1:65282]
+2020-04-27 18:47:26 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 18:47:26 INFO  springAppName_IS_UNDEFINED tm-rpc-service-6 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 18:47:26 INFO  springAppName_IS_UNDEFINED tm-rpc-service-6 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 18, max machine id is: 2251799813685246
+2020-04-27 18:47:26 INFO  springAppName_IS_UNDEFINED tm-rpc-service-7 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 18:50:03 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ: [id: 0x8b5d1a5f, L:/127.0.0.1:8888 - R:/127.0.0.1:49406]
+2020-04-27 18:50:03 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x5c61f47a, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-27 18:50:03 INFO  springAppName_IS_UNDEFINED tm-rpc-service-8 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-27 18:50:03 INFO  springAppName_IS_UNDEFINED tm-rpc-service-8 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 19, max machine id is: 2251799813685246
+2020-04-27 18:50:03 INFO  springAppName_IS_UNDEFINED tm-rpc-service-9 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-27 18:51:20 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-27 18:51:20 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-04-27 18:51:20 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 8 ms
+2020-04-27 18:51:20 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-5 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: c70f525082a543d393deb6210ee1ec30
+2020-04-27 18:51:23 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-7 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:25 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-9 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:26 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:28 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-5 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:29 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-6 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:30 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-7 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:30 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-2 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:32 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-3 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:46 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-8 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:46 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-6 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a
+2020-04-27 18:51:48 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-10 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: e6cbee5a53d6440f8f4c4d4ec059a47a

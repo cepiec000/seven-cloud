@@ -1,0 +1,558 @@
+2020-04-26 11:11:51 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:11:52 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\chendongdong\nacos\config
+2020-04-26 11:11:52 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2020-04-26 11:11:53 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.utils.JVMUtil isMultiInstance:false
+2020-04-26 11:11:53 INFO  SEVEN-Gateway main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='seven-gateway.yaml,DEFAULT_GROUP'}, NacosPropertySource {name='seven-gateway,DEFAULT_GROUP'}]}
+2020-04-26 11:11:53 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication No active profile set, falling back to default profiles: default
+2020-04-26 11:11:54 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-26 11:11:54 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17ms. Found 0 MongoDB repository interfaces.
+2020-04-26 11:11:54 INFO  SEVEN-Gateway main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3ffc255e-ee89-338c-ab4a-66b31dee0c2e
+2020-04-26 11:11:55 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:11:55 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:11:55 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:11:55 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:11:55 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration 
+
+Using generated security password: 4d7e32d0-8a16-4bce-9949-1a54655a244d
+
+2020-04-26 11:11:55 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 11:11:55 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2020-04-26 11:11:58 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 11:11:59 INFO  SEVEN-Gateway main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 3 endpoint(s) beneath base path '/actuator'
+2020-04-26 11:11:59 INFO  SEVEN-Gateway main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 11:12:01 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 11:21:26 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:21:27 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\chendongdong\nacos\config
+2020-04-26 11:21:27 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2020-04-26 11:21:28 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.utils.JVMUtil isMultiInstance:false
+2020-04-26 11:21:28 INFO  SEVEN-Gateway main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='seven-gateway.yaml,DEFAULT_GROUP'}, NacosPropertySource {name='seven-gateway,DEFAULT_GROUP'}]}
+2020-04-26 11:21:28 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication No active profile set, falling back to default profiles: default
+2020-04-26 11:21:28 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-26 11:21:28 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 16ms. Found 0 MongoDB repository interfaces.
+2020-04-26 11:21:29 INFO  SEVEN-Gateway main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3ffc255e-ee89-338c-ab4a-66b31dee0c2e
+2020-04-26 11:21:29 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:21:29 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:21:29 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:21:29 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:21:29 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration 
+
+Using generated security password: 21fc8661-b29b-4f93-a619-a6343ce1041b
+
+2020-04-26 11:21:29 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 11:21:29 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2020-04-26 11:21:32 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 11:21:33 INFO  SEVEN-Gateway main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 3 endpoint(s) beneath base path '/actuator'
+2020-04-26 11:21:33 INFO  SEVEN-Gateway main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 11:21:35 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 11:23:32 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:23:33 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\chendongdong\nacos\config
+2020-04-26 11:23:33 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2020-04-26 11:23:34 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.utils.JVMUtil isMultiInstance:false
+2020-04-26 11:23:34 INFO  SEVEN-Gateway main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='seven-gateway.yaml,DEFAULT_GROUP'}, NacosPropertySource {name='seven-gateway,DEFAULT_GROUP'}]}
+2020-04-26 11:23:34 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication No active profile set, falling back to default profiles: default
+2020-04-26 11:23:35 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-26 11:23:35 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 26ms. Found 0 MongoDB repository interfaces.
+2020-04-26 11:23:35 INFO  SEVEN-Gateway main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3ffc255e-ee89-338c-ab4a-66b31dee0c2e
+2020-04-26 11:23:35 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:23:35 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:23:35 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:23:35 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:23:36 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration 
+
+Using generated security password: 939bc8b5-1273-4c20-9aba-5fecc49763f0
+
+2020-04-26 11:23:36 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 11:23:36 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2020-04-26 11:23:39 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 11:23:40 INFO  SEVEN-Gateway main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 3 endpoint(s) beneath base path '/actuator'
+2020-04-26 11:23:40 INFO  SEVEN-Gateway main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 11:23:43 INFO  SEVEN-Gateway main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8301
+2020-04-26 11:23:44 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [BEAT] adding beat: {"cluster":"DEFAULT","ip":"172.30.34.62","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8301,"scheduled":false,"serviceName":"DEFAULT_GROUP@@SEVEN-Gateway","stopped":false,"weight":1.0} to beat map.
+2020-04-26 11:23:44 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@SEVEN-Gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"172.30.34.62","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8301,"weight":1.0}
+2020-04-26 11:24:00 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 11:25:00 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:25:01 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\chendongdong\nacos\config
+2020-04-26 11:25:01 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2020-04-26 11:25:02 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.utils.JVMUtil isMultiInstance:false
+2020-04-26 11:25:02 INFO  SEVEN-Gateway main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='seven-gateway.yaml,DEFAULT_GROUP'}, NacosPropertySource {name='seven-gateway,DEFAULT_GROUP'}]}
+2020-04-26 11:25:02 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication No active profile set, falling back to default profiles: default
+2020-04-26 11:25:03 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-26 11:25:03 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 23ms. Found 0 MongoDB repository interfaces.
+2020-04-26 11:25:03 INFO  SEVEN-Gateway main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3ffc255e-ee89-338c-ab4a-66b31dee0c2e
+2020-04-26 11:25:03 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:25:03 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:25:03 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:25:03 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 11:25:04 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration 
+
+Using generated security password: 3355059a-e47e-4be4-855e-6f7baaa9b6a4
+
+2020-04-26 11:25:04 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 11:25:04 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2020-04-26 11:25:07 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 11:25:08 INFO  SEVEN-Gateway main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 3 endpoint(s) beneath base path '/actuator'
+2020-04-26 11:25:08 INFO  SEVEN-Gateway main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 11:25:11 INFO  SEVEN-Gateway main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8301
+2020-04-26 11:25:12 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [BEAT] adding beat: {"cluster":"DEFAULT","ip":"172.30.34.62","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8301,"scheduled":false,"serviceName":"DEFAULT_GROUP@@SEVEN-Gateway","stopped":false,"weight":1.0} to beat map.
+2020-04-26 11:25:12 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@SEVEN-Gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"172.30.34.62","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8301,"weight":1.0}
+2020-04-26 11:25:12 INFO  SEVEN-Gateway main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP SEVEN-Gateway 172.30.34.62:8301 register finished
+2020-04-26 11:25:12 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication Started SevenGatewayApplication in 13.787 seconds (JVM running for 14.508)
+2020-04-26 11:25:12 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-gateway.yaml+DEFAULT_GROUP
+2020-04-26 11:25:12 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+2020-04-26 11:25:12 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-gateway+DEFAULT_GROUP
+2020-04-26 11:25:12 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-gateway, group=DEFAULT_GROUP, cnt=1
+2020-04-26 11:25:12 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:25:42 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:26:11 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:26:41 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:27:10 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:27:40 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:28:09 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:28:39 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:29:09 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:29:38 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:30:08 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:30:37 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:31:07 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:31:36 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:32:06 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:32:35 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:33:05 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:33:34 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:34:04 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:34:33 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:35:03 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:35:32 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:36:02 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:36:31 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:37:01 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:37:30 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:38:00 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:38:29 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:38:59 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:39:28 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:39:58 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:40:27 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:40:57 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:41:26 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:41:56 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:42:25 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:42:55 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 11:43:24 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:13:57 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:13:58 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\chendongdong\nacos\config
+2020-04-26 16:13:58 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2020-04-26 16:13:59 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.utils.JVMUtil isMultiInstance:false
+2020-04-26 16:13:59 INFO  SEVEN-Gateway main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='seven-gateway.yaml,DEFAULT_GROUP'}, NacosPropertySource {name='seven-gateway,DEFAULT_GROUP'}]}
+2020-04-26 16:13:59 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication No active profile set, falling back to default profiles: default
+2020-04-26 16:14:00 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-26 16:14:00 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 25ms. Found 0 MongoDB repository interfaces.
+2020-04-26 16:14:00 INFO  SEVEN-Gateway main org.springframework.cloud.context.scope.GenericScope BeanFactory id=3ffc255e-ee89-338c-ab4a-66b31dee0c2e
+2020-04-26 16:14:00 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:14:00 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:14:00 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:14:00 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:14:01 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration 
+
+Using generated security password: 30473a3f-c66b-4a32-ab86-0064f1017099
+
+2020-04-26 16:14:01 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 16:14:01 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2020-04-26 16:14:04 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 16:14:05 INFO  SEVEN-Gateway main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 3 endpoint(s) beneath base path '/actuator'
+2020-04-26 16:14:05 INFO  SEVEN-Gateway main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 16:14:07 INFO  SEVEN-Gateway main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8301
+2020-04-26 16:14:09 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [BEAT] adding beat: {"cluster":"DEFAULT","ip":"172.30.34.62","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8301,"scheduled":false,"serviceName":"DEFAULT_GROUP@@SEVEN-Gateway","stopped":false,"weight":1.0} to beat map.
+2020-04-26 16:14:09 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@SEVEN-Gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"172.30.34.62","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8301,"weight":1.0}
+2020-04-26 16:14:09 INFO  SEVEN-Gateway main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP SEVEN-Gateway 172.30.34.62:8301 register finished
+2020-04-26 16:14:09 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication Started SevenGatewayApplication in 13.744 seconds (JVM running for 14.508)
+2020-04-26 16:14:09 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-gateway.yaml+DEFAULT_GROUP
+2020-04-26 16:14:09 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+2020-04-26 16:14:09 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-gateway+DEFAULT_GROUP
+2020-04-26 16:14:09 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-gateway, group=DEFAULT_GROUP, cnt=1
+2020-04-26 16:14:09 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:14:39 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:15:08 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:15:38 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:16:07 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:16:37 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:17:06 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:17:36 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:18:05 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:18:35 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:19:04 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:19:34 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:20:03 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:20:33 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:21:02 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:21:32 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:22:01 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:22:31 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:23:00 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:23:30 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:23:59 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:24:29 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:24:58 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:25:28 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:25:57 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:26:27 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:26:56 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:27:26 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:27:55 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:28:25 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:28:54 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:29:24 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:29:53 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:30:23 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:37:46 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:37:47 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\chendongdong\nacos\config
+2020-04-26 16:37:47 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2020-04-26 16:37:47 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.utils.JVMUtil isMultiInstance:false
+2020-04-26 16:37:47 INFO  SEVEN-Gateway main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='seven-gateway.yaml,DEFAULT_GROUP'}, NacosPropertySource {name='seven-gateway,DEFAULT_GROUP'}]}
+2020-04-26 16:37:47 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication No active profile set, falling back to default profiles: default
+2020-04-26 16:37:47 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-26 16:37:47 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 15ms. Found 0 MongoDB repository interfaces.
+2020-04-26 16:37:48 INFO  SEVEN-Gateway main org.springframework.cloud.context.scope.GenericScope BeanFactory id=69ab116f-08a7-3f44-9cd0-694e64a15a58
+2020-04-26 16:37:48 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:37:48 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:37:48 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:37:48 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 16:37:48 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration 
+
+Using generated security password: 3a9c5a9f-aed9-4184-a59f-650a5a828ca9
+
+2020-04-26 16:37:48 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 16:37:48 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2020-04-26 16:37:51 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 16:37:52 INFO  SEVEN-Gateway main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 3 endpoint(s) beneath base path '/actuator'
+2020-04-26 16:37:52 INFO  SEVEN-Gateway main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 16:37:55 INFO  SEVEN-Gateway main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8301
+2020-04-26 16:37:56 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [BEAT] adding beat: {"cluster":"DEFAULT","ip":"172.30.34.62","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8301,"scheduled":false,"serviceName":"DEFAULT_GROUP@@SEVEN-Gateway","stopped":false,"weight":1.0} to beat map.
+2020-04-26 16:37:56 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@SEVEN-Gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"172.30.34.62","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8301,"weight":1.0}
+2020-04-26 16:37:56 INFO  SEVEN-Gateway main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP SEVEN-Gateway 172.30.34.62:8301 register finished
+2020-04-26 16:37:56 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication Started SevenGatewayApplication in 12.578 seconds (JVM running for 14.342)
+2020-04-26 16:37:56 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-gateway.yaml+DEFAULT_GROUP
+2020-04-26 16:37:56 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+2020-04-26 16:37:56 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-gateway+DEFAULT_GROUP
+2020-04-26 16:37:56 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-gateway, group=DEFAULT_GROUP, cnt=1
+2020-04-26 16:37:56 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:38:26 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:38:55 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:39:25 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:39:54 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:40:24 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:40:53 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:41:23 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:41:52 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:42:22 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:42:51 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:43:21 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:43:51 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:44:20 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:44:50 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:45:19 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:45:49 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:46:18 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:46:48 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:47:17 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:47:47 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:48:16 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:48:46 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:49:15 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:49:45 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:50:14 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:50:44 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:51:13 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:51:43 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:52:12 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:52:42 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:53:11 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:53:41 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:54:10 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:54:40 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:55:09 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:55:39 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:56:08 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:56:38 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:57:07 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:57:37 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:58:06 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:58:36 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:59:05 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 16:59:35 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:00:04 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:00:34 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:01:03 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:01:33 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:02:02 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:02:32 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:03:01 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:03:31 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:04:00 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:04:30 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:04:59 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:05:29 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:05:58 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:06:28 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:06:57 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:07:27 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:07:56 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:08:26 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:08:55 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:09:25 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:09:54 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:10:24 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:10:53 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:11:23 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:11:52 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:12:22 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:12:51 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:13:21 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:13:50 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:14:20 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:14:49 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:15:19 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:15:48 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:16:18 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:16:47 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:17:17 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:17:46 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:18:16 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:18:45 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:19:15 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:19:44 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:20:14 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:20:43 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:21:13 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:21:42 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:22:12 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:22:41 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:23:11 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:23:40 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:24:10 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:24:39 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:25:09 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:25:38 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:26:08 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:26:37 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:27:07 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:27:36 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:28:06 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:28:35 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:29:05 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:29:34 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:30:04 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:30:33 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:31:03 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:31:33 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:32:02 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 17:32:32 INFO  springAppName_IS_UNDEFINED com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:20:48 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:20:49 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\chendongdong\nacos\config
+2020-04-26 18:20:49 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2020-04-26 18:20:49 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.utils.JVMUtil isMultiInstance:false
+2020-04-26 18:20:49 INFO  SEVEN-Gateway main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='seven-gateway.yaml,DEFAULT_GROUP'}, NacosPropertySource {name='seven-gateway,DEFAULT_GROUP'}]}
+2020-04-26 18:20:49 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:20:50 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-04-26 18:20:50 INFO  SEVEN-Gateway main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17ms. Found 0 MongoDB repository interfaces.
+2020-04-26 18:20:51 INFO  SEVEN-Gateway main org.springframework.cloud.context.scope.GenericScope BeanFactory id=69ab116f-08a7-3f44-9cd0-694e64a15a58
+2020-04-26 18:20:51 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:20:51 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:20:51 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:20:51 INFO  SEVEN-Gateway main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:20:51 INFO  SEVEN-Gateway main org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration 
+
+Using generated security password: 4e7608fe-8b69-4ca5-8647-93d2f5ff8860
+
+2020-04-26 18:20:51 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 18:20:51 INFO  SEVEN-Gateway main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [After]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Before]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Between]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Cookie]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Header]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Host]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Method]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Path]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Query]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [Weight]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2020-04-26 18:20:54 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-26 18:20:55 INFO  SEVEN-Gateway main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 3 endpoint(s) beneath base path '/actuator'
+2020-04-26 18:20:55 INFO  SEVEN-Gateway main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 18:20:58 INFO  SEVEN-Gateway main org.springframework.boot.web.embedded.netty.NettyWebServer Netty started on port(s): 8301
+2020-04-26 18:21:01 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [BEAT] adding beat: {"cluster":"DEFAULT","ip":"172.30.34.62","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8301,"scheduled":false,"serviceName":"DEFAULT_GROUP@@SEVEN-Gateway","stopped":false,"weight":1.0} to beat map.
+2020-04-26 18:21:01 INFO  SEVEN-Gateway main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@SEVEN-Gateway with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"172.30.34.62","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8301,"weight":1.0}
+2020-04-26 18:21:01 INFO  SEVEN-Gateway main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP SEVEN-Gateway 172.30.34.62:8301 register finished
+2020-04-26 18:21:01 INFO  SEVEN-Gateway main cc.seven.gateway.SevenGatewayApplication Started SevenGatewayApplication in 15.264 seconds (JVM running for 16.825)
+2020-04-26 18:21:01 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-gateway.yaml+DEFAULT_GROUP
+2020-04-26 18:21:01 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-gateway.yaml, group=DEFAULT_GROUP, cnt=1
+2020-04-26 18:21:01 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-gateway+DEFAULT_GROUP
+2020-04-26 18:21:01 INFO  SEVEN-Gateway main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-gateway, group=DEFAULT_GROUP, cnt=1
+2020-04-26 18:21:01 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:21:30 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:22:00 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:22:30 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:22:59 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:23:29 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:23:58 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:24:28 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:24:57 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:25:27 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:25:56 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:26:26 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:26:55 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:27:25 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:27:54 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:28:24 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:28:53 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:29:23 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:29:52 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:30:22 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:30:51 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:31:21 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:31:50 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:32:20 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:32:49 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:33:19 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:33:48 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:34:18 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:34:47 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:35:17 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:35:46 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:36:16 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:36:45 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:37:15 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:37:44 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:38:14 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:38:43 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:39:13 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:39:42 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:40:12 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:40:41 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:41:11 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:41:40 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:42:10 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:42:39 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:43:09 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:43:38 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:44:08 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:44:37 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:45:07 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:45:36 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:46:06 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:46:35 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:47:05 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:47:34 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:48:04 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:48:33 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:49:03 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:49:32 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:50:02 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:50:31 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:51:01 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:51:30 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:52:00 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:52:29 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:52:59 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-26 18:53:28 INFO  SEVEN-Gateway com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]

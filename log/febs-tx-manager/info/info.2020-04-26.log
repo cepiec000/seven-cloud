@@ -1,0 +1,50 @@
+2020-04-26 17:00:17 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 15832 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:00:17 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:00:18 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:00:18 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:00:18 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 214ms. Found 1 JPA repository interfaces.
+2020-04-26 17:00:18 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:00:18 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:00:18 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:00:18 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-04-26 17:00:20 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:00:20 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:00:20 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:00:20 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:00:20 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:00:20 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3259 ms
+2020-04-26 17:00:21 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:00:21 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:00:21 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:00:21 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:00:23 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:00:23 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:00:24 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:00:24 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:02:14 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 14132 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:02:14 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:02:15 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:02:15 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:02:15 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 194ms. Found 1 JPA repository interfaces.
+2020-04-26 17:02:16 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:02:16 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:02:16 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:02:16 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-04-26 17:02:17 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:02:17 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:02:17 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:02:17 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:02:17 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:02:17 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3394 ms
+2020-04-26 17:02:18 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:02:18 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:02:18 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:02:18 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:02:20 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:02:20 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:02:22 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:02:22 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

@@ -1,0 +1,32 @@
+#从nacos中获取配置
+spring:
+  application:
+    name: seven-admin-server
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: http://127.0.0.1:8001
+        group: DEFAULT_GROUP
+        prefix: seven-admin-server
+        file-extension: yaml
+        refreshable-dataids:
+      discovery:
+        server-addr: http://127.0.0.1:8001
+
+
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          actuate:
+            endpoint:
+              EndpointId: error
+    com:
+      alibaba:
+        cloud:
+          nacos:
+            client:
+              NacosPropertySourceBuilder: error

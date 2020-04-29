@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: seven-auth
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8001
+        group: DEFAULT_GROUP
+        prefix: seven-auth
+        file-extension: yaml
+      discovery:
+        server-addr: 127.0.0.1:8001
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          actuate:
+            endpoint:
+              EndpointId: error
+    com:
+      alibaba:
+        cloud:
+          nacos:
+            client:
+              NacosPropertySourceBuilder: error

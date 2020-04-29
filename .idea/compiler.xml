@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="seven-admin" />
+        <module name="seven-auth" />
+        <module name="seven-cloud-admin" />
+        <module name="seven-common-core" />
+        <module name="seven-common-datasource" />
+        <module name="seven-common-redis" />
+        <module name="seven-common-security" />
+        <module name="seven-server-test" />
+        <module name="seven-tx-manager" />
+        <module name="seven-xxl-job-actuator" />
+        <module name="seven-xxl-job-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="seven-apm" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

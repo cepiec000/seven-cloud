@@ -1,0 +1,918 @@
+2020-04-26 17:03:53 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 12244 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:03:53 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:03:54 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:03:54 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:03:54 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 214ms. Found 1 JPA repository interfaces.
+2020-04-26 17:03:55 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:03:55 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:03:55 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:03:55 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-04-26 17:03:56 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:03:56 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:03:56 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:03:56 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:03:56 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:03:56 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3295 ms
+2020-04-26 17:03:57 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:03:57 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:03:57 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:03:58 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:03:59 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:04:00 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:04:01 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:04:01 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:05:37 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 15560 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:05:37 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:05:39 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:05:39 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:05:39 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 208ms. Found 1 JPA repository interfaces.
+2020-04-26 17:05:39 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:05:39 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:05:39 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:05:39 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-04-26 17:05:41 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:05:41 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:05:41 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:05:41 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:05:41 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:05:41 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3365 ms
+2020-04-26 17:05:41 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:05:42 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:05:42 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:05:42 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:05:43 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:05:44 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:05:45 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:05:45 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:07:33 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 16100 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:07:33 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:07:34 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:07:34 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:07:34 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 200ms. Found 1 JPA repository interfaces.
+2020-04-26 17:07:34 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:07:34 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:07:34 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:07:34 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-04-26 17:07:36 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:07:36 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:07:36 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:07:36 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:07:36 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:07:36 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3275 ms
+2020-04-26 17:07:37 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:07:37 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:07:37 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:07:37 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:07:38 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:07:39 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:07:40 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:07:40 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:11:10 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 7780 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:11:10 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:11:11 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:11:11 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:11:11 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 194ms. Found 1 JPA repository interfaces.
+2020-04-26 17:11:12 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:11:12 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:11:12 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:11:12 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-04-26 17:11:13 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:11:13 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:11:13 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:11:13 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:11:13 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:11:13 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3395 ms
+2020-04-26 17:11:14 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:11:14 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:11:14 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:11:14 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:11:16 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:11:16 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:11:17 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:11:17 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:14:14 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 14360 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:14:14 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:14:15 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:14:15 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:14:16 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 170ms. Found 1 JPA repository interfaces.
+2020-04-26 17:14:16 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:14:16 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:14:16 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:14:16 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-04-26 17:14:17 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:14:17 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:14:17 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:14:17 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:14:18 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:14:18 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3203 ms
+2020-04-26 17:14:18 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:14:18 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:14:19 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:14:19 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:14:20 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:14:21 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:14:22 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:14:22 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:15:18 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 15504 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:15:18 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:15:19 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:15:19 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:15:19 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 184ms. Found 1 JPA repository interfaces.
+2020-04-26 17:15:19 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:15:19 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:15:19 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:15:19 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-04-26 17:15:21 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:15:21 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:15:21 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:15:21 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:15:21 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:15:21 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3117 ms
+2020-04-26 17:15:22 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:15:22 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:15:22 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:15:22 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:15:23 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:15:24 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:15:25 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:15:25 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:23:29 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 2844 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:23:29 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:23:30 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:23:30 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:23:30 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 276ms. Found 1 JPA repository interfaces.
+2020-04-26 17:23:31 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:23:31 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:23:31 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:23:31 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-04-26 17:23:32 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:23:32 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:23:32 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:23:32 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:23:32 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:23:32 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3488 ms
+2020-04-26 17:23:33 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:23:33 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:23:33 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:23:33 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:23:34 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:23:35 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:23:36 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:23:36 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:32:46 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 15908 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:32:46 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:32:48 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:32:48 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:32:48 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 164ms. Found 1 JPA repository interfaces.
+2020-04-26 17:32:48 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:32:48 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:32:48 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:32:48 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-04-26 17:32:50 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:32:50 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:32:50 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:32:50 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:32:50 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:32:50 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3456 ms
+2020-04-26 17:32:50 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:32:51 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:32:51 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:32:51 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:32:52 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:32:53 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:32:54 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:32:54 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:33:00 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 6392 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:33:00 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:33:02 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:33:02 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:33:02 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 197ms. Found 1 JPA repository interfaces.
+2020-04-26 17:33:02 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:33:02 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:33:02 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:33:02 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-04-26 17:33:04 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:33:04 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:33:04 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:33:04 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:33:04 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:33:04 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3395 ms
+2020-04-26 17:33:04 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:33:04 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:33:05 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:33:05 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:33:06 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:33:07 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:33:08 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:33:08 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:35:07 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 6424 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:35:07 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:35:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:35:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:35:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 185ms. Found 1 JPA repository interfaces.
+2020-04-26 17:35:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:35:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:35:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:35:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-04-26 17:35:10 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:35:10 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:35:10 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:35:10 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:35:10 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:35:10 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3232 ms
+2020-04-26 17:35:11 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:35:11 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:35:11 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:35:11 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:35:12 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:35:13 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:35:14 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:35:14 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:35:48 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 7096 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:35:48 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:35:49 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:35:49 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:35:50 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 194ms. Found 1 JPA repository interfaces.
+2020-04-26 17:35:50 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:35:50 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:35:50 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:35:50 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-04-26 17:35:51 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:35:51 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:35:51 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:35:51 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:35:52 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:35:52 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3315 ms
+2020-04-26 17:35:52 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:35:52 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:35:53 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:35:53 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:35:54 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:35:55 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:35:56 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:35:56 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:37:02 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 3748 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:37:02 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:37:04 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:37:04 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:37:04 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 170ms. Found 1 JPA repository interfaces.
+2020-04-26 17:37:04 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:37:04 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:37:04 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:37:04 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-04-26 17:37:06 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:37:06 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:37:06 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:37:06 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:37:06 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:37:06 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3397 ms
+2020-04-26 17:37:07 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:37:07 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:37:07 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:37:07 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:37:08 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:37:09 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:37:10 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:37:10 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:39:19 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 15804 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:39:19 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:39:20 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:39:20 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:39:21 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 195ms. Found 1 JPA repository interfaces.
+2020-04-26 17:39:21 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:39:21 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:39:21 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:39:21 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-04-26 17:39:22 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:39:22 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:39:22 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:39:22 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:39:22 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:39:22 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3407 ms
+2020-04-26 17:39:23 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:39:23 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:39:23 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:39:24 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:39:25 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:39:26 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:39:27 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:39:27 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:41:11 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 344 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:41:11 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:41:12 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:41:12 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:41:12 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 170ms. Found 1 JPA repository interfaces.
+2020-04-26 17:41:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:41:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:41:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:41:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2020-04-26 17:41:14 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:41:14 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:41:14 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:41:14 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:41:14 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:41:14 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3339 ms
+2020-04-26 17:41:15 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:41:15 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:41:15 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:41:15 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:41:17 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:41:17 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:41:18 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:41:18 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:44:07 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 11496 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 17:44:07 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 17:44:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:44:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:44:08 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 175ms. Found 1 JPA repository interfaces.
+2020-04-26 17:44:09 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:44:09 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:44:09 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:44:09 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-04-26 17:44:10 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 17:44:10 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 17:44:10 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:44:10 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:44:10 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:44:10 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3235 ms
+2020-04-26 17:44:11 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 17:44:11 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 17:44:11 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 17:44:12 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:44:13 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 17:44:14 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 17:44:15 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:44:15 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:54:31 INFO  seven-admin-server main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 17:54:32 INFO  seven-admin-server main cc.seven.tx.manager.SevenTxManagerApplication The following profiles are active: dev
+2020-04-26 17:54:33 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:54:33 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:54:33 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 221ms. Found 1 JPA repository interfaces.
+2020-04-26 17:54:34 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:54:34 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:54:34 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:54:34 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-04-26 17:54:34 INFO  seven-admin-server main org.springframework.cloud.context.scope.GenericScope BeanFactory id=80caa76e-de4a-3dfa-9702-44eacf89b47c
+2020-04-26 17:54:34 INFO  seven-admin-server main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 17:54:35 INFO  seven-admin-server main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 17:54:35 INFO  seven-admin-server main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 17:54:35 INFO  seven-admin-server main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:54:35 INFO  seven-admin-server main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:54:35 INFO  seven-admin-server main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:54:35 INFO  seven-admin-server main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3610 ms
+2020-04-26 17:54:36 INFO  seven-admin-server main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 17:54:36 INFO  seven-admin-server main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@e521067
+2020-04-26 17:54:37 INFO  seven-admin-server main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:54:37 INFO  seven-admin-server main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:57:02 INFO  seven-admin-server main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 17:57:03 INFO  seven-admin-server main cc.seven.tx.manager.SevenTxManagerApplication The following profiles are active: dev
+2020-04-26 17:57:04 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:57:04 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:57:04 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 188ms. Found 1 JPA repository interfaces.
+2020-04-26 17:57:04 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:57:04 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:57:04 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:57:04 INFO  seven-admin-server main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-04-26 17:57:04 INFO  seven-admin-server main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 17:57:05 INFO  seven-admin-server main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 17:57:06 INFO  seven-admin-server main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 17:57:06 INFO  seven-admin-server main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 17:57:06 INFO  seven-admin-server main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:57:06 INFO  seven-admin-server main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:57:06 INFO  seven-admin-server main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:57:06 INFO  seven-admin-server main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3145 ms
+2020-04-26 17:57:07 INFO  seven-admin-server main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:57:07 INFO  seven-admin-server main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:58:19 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 17:58:20 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication The following profiles are active: dev
+2020-04-26 17:58:21 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:58:21 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:58:21 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 177ms. Found 1 JPA repository interfaces.
+2020-04-26 17:58:21 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:58:21 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:58:21 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:58:21 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-04-26 17:58:22 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 17:58:22 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 17:58:23 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 17:58:23 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 17:58:23 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:58:23 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:58:23 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:58:23 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3063 ms
+2020-04-26 17:58:24 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:58:24 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 17:58:59 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 17:59:00 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication The following profiles are active: dev
+2020-04-26 17:59:00 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:59:00 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 17:59:01 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 187ms. Found 1 JPA repository interfaces.
+2020-04-26 17:59:01 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 17:59:01 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 17:59:01 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 17:59:01 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-04-26 17:59:01 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 17:59:02 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 17:59:03 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 17:59:03 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 17:59:03 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 17:59:03 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 17:59:03 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 17:59:03 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3106 ms
+2020-04-26 17:59:04 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 17:59:04 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:00:08 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:00:09 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication The following profiles are active: dev
+2020-04-26 18:00:09 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:00:09 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:00:10 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 183ms. Found 1 JPA repository interfaces.
+2020-04-26 18:00:10 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:00:10 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:00:10 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:00:10 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-04-26 18:00:10 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 18:00:11 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:00:11 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 18:00:11 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 18:00:11 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:00:11 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:00:12 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:00:12 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3038 ms
+2020-04-26 18:00:13 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:00:13 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:01:08 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:01:09 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication The following profiles are active: dev
+2020-04-26 18:01:10 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:01:10 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:01:10 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 183ms. Found 1 JPA repository interfaces.
+2020-04-26 18:01:11 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:01:11 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:01:11 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:01:11 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-04-26 18:01:11 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 18:01:11 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:01:12 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 18:01:12 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 18:01:12 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:01:12 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:01:12 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:01:12 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3032 ms
+2020-04-26 18:01:14 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:01:14 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:01:32 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:01:33 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:01:33 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:01:33 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:01:34 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 263ms. Found 1 JPA repository interfaces.
+2020-04-26 18:01:34 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:01:34 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:01:34 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:01:34 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-04-26 18:01:35 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 18:01:35 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:01:36 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 18:01:36 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 18:01:36 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:01:36 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:01:36 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:01:36 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3431 ms
+2020-04-26 18:01:37 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:01:37 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:03:11 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication Starting SevenTxManagerApplication on 4365YQ2 with PID 11820 (D:\ideaWorks\sevendependencies\seven-cloud\seven-tx-manager\target\classes started by chendongdong in D:\ideaWorks\sevendependencies\seven-cloud)
+2020-04-26 18:03:11 INFO  TransactionManager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:03:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:03:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:03:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 194ms. Found 1 JPA repository interfaces.
+2020-04-26 18:03:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:03:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:03:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:03:13 INFO  TransactionManager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-04-26 18:03:14 INFO  TransactionManager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 18:03:14 INFO  TransactionManager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 18:03:14 INFO  TransactionManager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:03:14 INFO  TransactionManager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:03:15 INFO  TransactionManager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:03:15 INFO  TransactionManager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3298 ms
+2020-04-26 18:03:15 INFO  TransactionManager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 18:03:15 INFO  TransactionManager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 18:03:16 INFO  TransactionManager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 18:03:16 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:03:17 INFO  TransactionManager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 18:03:18 INFO  TransactionManager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:03:19 INFO  TransactionManager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:03:19 INFO  TransactionManager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:05:20 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:05:21 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:05:22 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:05:22 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:05:22 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 172ms. Found 1 JPA repository interfaces.
+2020-04-26 18:05:22 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:05:22 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:05:22 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:05:22 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-04-26 18:05:23 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=1cb4bff8-9812-33bf-afa9-722dae1a95a7
+2020-04-26 18:05:23 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:05:24 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 18:05:24 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 18:05:24 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:05:24 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:05:24 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:05:24 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 2983 ms
+2020-04-26 18:05:25 INFO  seven-tx-manager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 18:05:25 INFO  seven-tx-manager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 18:05:25 INFO  seven-tx-manager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 18:05:25 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:05:27 INFO  seven-tx-manager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 18:05:27 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:05:29 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:05:29 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:05:53 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:05:54 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:05:55 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:05:55 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:05:55 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 190ms. Found 1 JPA repository interfaces.
+2020-04-26 18:05:55 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:05:55 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:05:55 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:05:55 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-04-26 18:05:56 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=1cb4bff8-9812-33bf-afa9-722dae1a95a7
+2020-04-26 18:05:56 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:05:57 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 18:05:57 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 18:05:57 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:05:57 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:05:57 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:05:57 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 2978 ms
+2020-04-26 18:05:58 INFO  seven-tx-manager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 18:05:58 INFO  seven-tx-manager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 18:05:58 INFO  seven-tx-manager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 18:05:58 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:05:59 INFO  seven-tx-manager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 18:06:00 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:06:01 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:06:01 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:06:13 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:06:14 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:06:15 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:06:15 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:06:15 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 161ms. Found 1 JPA repository interfaces.
+2020-04-26 18:06:15 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:06:15 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:06:15 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:06:15 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-04-26 18:06:16 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=1cb4bff8-9812-33bf-afa9-722dae1a95a7
+2020-04-26 18:06:16 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:06:17 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7970 (http)
+2020-04-26 18:06:17 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7970"]
+2020-04-26 18:06:17 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:06:17 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:06:17 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:06:17 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3148 ms
+2020-04-26 18:06:18 INFO  seven-tx-manager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 18:06:18 INFO  seven-tx-manager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 18:06:18 INFO  seven-tx-manager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 18:06:19 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:06:20 INFO  seven-tx-manager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 18:06:21 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:06:22 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:06:22 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:08:40 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:08:41 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:08:42 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:08:42 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:08:42 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 202ms. Found 1 JPA repository interfaces.
+2020-04-26 18:08:42 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:08:42 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:08:42 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:08:42 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-04-26 18:08:43 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 18:08:43 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:08:44 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 18:08:44 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 18:08:44 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:08:44 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:08:44 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:08:44 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3310 ms
+2020-04-26 18:08:45 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:08:45 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:10:31 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:10:32 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:10:33 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:10:33 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:10:33 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 191ms. Found 1 JPA repository interfaces.
+2020-04-26 18:10:33 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:10:33 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:10:33 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:10:33 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-04-26 18:10:34 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 18:10:34 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:10:35 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 18:10:35 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 18:10:35 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:10:35 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:10:35 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:10:35 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3394 ms
+2020-04-26 18:10:37 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:10:37 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:12:22 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:12:23 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:12:24 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:12:24 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:12:24 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 191ms. Found 1 JPA repository interfaces.
+2020-04-26 18:12:24 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:12:24 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:12:24 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:12:24 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-04-26 18:12:25 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 18:12:25 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:12:26 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 18:12:26 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 18:12:26 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:12:26 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:12:26 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:12:26 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3019 ms
+2020-04-26 18:12:27 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:12:27 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:13:56 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:13:57 INFO  seven-tx-manager main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:13:58 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:13:58 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:13:58 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 193ms. Found 1 JPA repository interfaces.
+2020-04-26 18:13:58 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:13:58 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:13:58 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:13:58 INFO  seven-tx-manager main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-04-26 18:13:59 INFO  seven-tx-manager main org.springframework.cloud.context.scope.GenericScope BeanFactory id=0de8bf17-9e40-3b65-be72-9006a755f18b
+2020-04-26 18:13:59 INFO  seven-tx-manager main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:14:00 INFO  seven-tx-manager main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2020-04-26 18:14:00 INFO  seven-tx-manager main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-26 18:14:00 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:14:00 INFO  seven-tx-manager main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:14:00 INFO  seven-tx-manager main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:14:00 INFO  seven-tx-manager main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3094 ms
+2020-04-26 18:14:02 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:14:02 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2020-04-26 18:14:02 INFO  seven-tx-manager main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 18:14:02 INFO  seven-tx-manager main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 18:14:02 INFO  seven-tx-manager main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 18:14:03 INFO  seven-tx-manager main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-26 18:14:03 INFO  seven-tx-manager main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-26 18:14:03 INFO  seven-tx-manager main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-26 18:14:03 INFO  seven-tx-manager main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-26 18:14:03 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2020-04-26 18:14:04 INFO  seven-tx-manager main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2020-04-26 18:14:04 INFO  seven-tx-manager main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-04-26 18:14:04 INFO  seven-tx-manager main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:14:47 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:14:48 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:14:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:14:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:14:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 202ms. Found 1 JPA repository interfaces.
+2020-04-26 18:14:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:14:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:14:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:14:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-04-26 18:14:50 INFO  springAppName_IS_UNDEFINED main org.springframework.cloud.context.scope.GenericScope BeanFactory id=056257b8-cfc5-3806-b07b-96e52e86bd76
+2020-04-26 18:14:50 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:14:51 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8501 (http)
+2020-04-26 18:14:51 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8501"]
+2020-04-26 18:14:51 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:14:51 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:14:51 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:14:51 INFO  springAppName_IS_UNDEFINED main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3540 ms
+2020-04-26 18:14:53 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-26 18:14:53 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:14:54 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2020-04-26 18:14:54 INFO  springAppName_IS_UNDEFINED main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 18:14:54 INFO  springAppName_IS_UNDEFINED main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 18:14:54 INFO  springAppName_IS_UNDEFINED main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 18:14:54 INFO  springAppName_IS_UNDEFINED main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-26 18:14:55 INFO  springAppName_IS_UNDEFINED main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-26 18:14:55 INFO  springAppName_IS_UNDEFINED main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-26 18:14:57 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db Properties: {"allowPoolSuspension":false,"autoCommit":true,"connectionTimeout":30000,"dataSourceProperties":{},"driverClassName":"com.mysql.cj.jdbc.Driver","enabled":true,"healthCheckProperties":{},"idleTimeout":600000,"initializationFailTimeout":1,"isolateInternalQueries":false,"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/seven_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8","leakDetectionThreshold":0,"maxLifetime":1800000,"maximumPoolSize":-1,"minimumIdle":-1,"onlyError":true,"password":"root","readOnly":false,"registerMbeans":false,"username":"root","validationTimeout":5000}
+2020-04-26 18:14:57 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2020-04-26 18:14:57 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2020-04-26 18:14:57 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db prepared.
+2020-04-26 18:14:57 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 18:14:57 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 18:14:57 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 18:14:57 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-04-26 18:14:59 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2020-04-26 18:14:59 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8501"]
+2020-04-26 18:14:59 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8501 (http) with context path ''
+2020-04-26 18:15:00 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication Started SevenTxManagerApplication in 14.83 seconds (JVM running for 15.542)
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcServerInitializer Socket started on 127.0.0.1:8888 
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xe5ae9cc3] REGISTERED
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xe5ae9cc3] BIND: /127.0.0.1:8888
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xe5ae9cc3, L:/127.0.0.1:8888] ACTIVE
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xe5ae9cc3, L:/127.0.0.1:8888] INACTIVE
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xe5ae9cc3, L:/127.0.0.1:8888] UNREGISTERED
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcServerInitializer server was down.
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log hikariDataSource close.
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2020-04-26 18:15:01 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2020-04-26 18:20:09 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:20:10 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:20:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:20:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:20:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 210ms. Found 1 JPA repository interfaces.
+2020-04-26 18:20:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:20:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:20:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:20:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-04-26 18:20:12 INFO  springAppName_IS_UNDEFINED main org.springframework.cloud.context.scope.GenericScope BeanFactory id=056257b8-cfc5-3806-b07b-96e52e86bd76
+2020-04-26 18:20:12 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:20:13 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8501 (http)
+2020-04-26 18:20:13 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8501"]
+2020-04-26 18:20:13 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:20:13 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:20:13 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:20:13 INFO  springAppName_IS_UNDEFINED main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3294 ms
+2020-04-26 18:20:15 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-26 18:20:15 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:20:15 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2020-04-26 18:20:15 INFO  springAppName_IS_UNDEFINED main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 18:20:15 INFO  springAppName_IS_UNDEFINED main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 18:20:16 INFO  springAppName_IS_UNDEFINED main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 18:20:16 INFO  springAppName_IS_UNDEFINED main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-26 18:20:17 INFO  springAppName_IS_UNDEFINED main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-26 18:20:17 INFO  springAppName_IS_UNDEFINED main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-26 18:20:18 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db Properties: {"allowPoolSuspension":false,"autoCommit":true,"connectionTimeout":30000,"dataSourceProperties":{},"driverClassName":"com.mysql.cj.jdbc.Driver","enabled":true,"healthCheckProperties":{},"idleTimeout":600000,"initializationFailTimeout":1,"isolateInternalQueries":false,"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/seven_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8","leakDetectionThreshold":0,"maxLifetime":1800000,"maximumPoolSize":-1,"minimumIdle":-1,"onlyError":true,"password":"root","readOnly":false,"registerMbeans":false,"username":"root","validationTimeout":5000}
+2020-04-26 18:20:18 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2020-04-26 18:20:18 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2020-04-26 18:20:18 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db prepared.
+2020-04-26 18:20:18 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 18:20:18 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 18:20:19 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 18:20:19 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-04-26 18:20:21 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2020-04-26 18:20:21 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8501"]
+2020-04-26 18:20:21 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8501 (http) with context path ''
+2020-04-26 18:20:22 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication Started SevenTxManagerApplication in 14.748 seconds (JVM running for 15.474)
+2020-04-26 18:20:23 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcServerInitializer Socket started on 127.0.0.1:8888 
+2020-04-26 18:20:23 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xfdaa0d8f] REGISTERED
+2020-04-26 18:20:23 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xfdaa0d8f] BIND: /127.0.0.1:8888
+2020-04-26 18:20:23 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xfdaa0d8f, L:/127.0.0.1:8888] ACTIVE
+2020-04-26 18:20:23 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-04-26 18:20:23 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-04-26 18:20:23 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 0, max machine id is: 2251799813685246
+2020-04-26 18:21:24 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-26 18:21:24 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-04-26 18:21:24 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 11 ms
+2020-04-26 18:21:36 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-7 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:21:41 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-8 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:21:43 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:21:44 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-3 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:21:45 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-4 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:21:47 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-9 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:21:49 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-8 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:21:50 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-1 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:21:59 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-5 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:21:59 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-3 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:28:24 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-9 org.apache.coyote.http11.Http11Processor Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:416)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-26 18:29:28 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-6 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:29:29 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xfdaa0d8f, L:/127.0.0.1:8888] READ: [id: 0x0448107d, L:/127.0.0.1:8888 - R:/127.0.0.1:51408]
+2020-04-26 18:29:29 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0xfdaa0d8f, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-26 18:29:29 INFO  springAppName_IS_UNDEFINED tm-rpc-service-0 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-26 18:29:29 INFO  springAppName_IS_UNDEFINED tm-rpc-service-0 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 1, max machine id is: 2251799813685246
+2020-04-26 18:29:29 INFO  springAppName_IS_UNDEFINED tm-rpc-service-1 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]
+2020-04-26 18:29:35 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-4 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:29:37 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-10 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:29:39 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-2 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:29:40 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-5 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:29:41 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-3 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:32:56 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-2 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:32:58 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-6 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:33:00 INFO  springAppName_IS_UNDEFINED http-nio-8501-exec-3 com.codingapi.txlcn.tm.support.restapi.auth.sauth.token.TokenInterceptor Token is: 57529599eec243fc9025021614643b54
+2020-04-26 18:44:06 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:44:07 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication No active profile set, falling back to default profiles: default
+2020-04-26 18:44:08 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:44:08 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-26 18:44:08 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 234ms. Found 1 JPA repository interfaces.
+2020-04-26 18:44:08 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-26 18:44:08 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-26 18:44:08 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-26 18:44:08 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-04-26 18:44:09 INFO  springAppName_IS_UNDEFINED main org.springframework.cloud.context.scope.GenericScope BeanFactory id=056257b8-cfc5-3806-b07b-96e52e86bd76
+2020-04-26 18:44:09 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-26 18:44:10 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8501 (http)
+2020-04-26 18:44:10 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8501"]
+2020-04-26 18:44:10 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-26 18:44:10 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-26 18:44:10 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-26 18:44:10 INFO  springAppName_IS_UNDEFINED main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3606 ms
+2020-04-26 18:44:12 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-26 18:44:12 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-26 18:44:12 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2020-04-26 18:44:12 INFO  springAppName_IS_UNDEFINED main org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 18:44:13 INFO  springAppName_IS_UNDEFINED main org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 18:44:13 INFO  springAppName_IS_UNDEFINED main org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 18:44:13 INFO  springAppName_IS_UNDEFINED main org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-26 18:44:14 INFO  springAppName_IS_UNDEFINED main org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-26 18:44:14 INFO  springAppName_IS_UNDEFINED main org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-26 18:44:16 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db Properties: {"allowPoolSuspension":false,"autoCommit":true,"connectionTimeout":30000,"dataSourceProperties":{},"driverClassName":"com.mysql.cj.jdbc.Driver","enabled":true,"healthCheckProperties":{},"idleTimeout":600000,"initializationFailTimeout":1,"isolateInternalQueries":false,"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/seven_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8","leakDetectionThreshold":0,"maxLifetime":1800000,"maximumPoolSize":-1,"minimumIdle":-1,"onlyError":true,"password":"root","readOnly":false,"registerMbeans":false,"username":"root","validationTimeout":5000}
+2020-04-26 18:44:16 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2020-04-26 18:44:16 INFO  springAppName_IS_UNDEFINED main com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2020-04-26 18:44:16 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.logger.db.LogDbHelper log-db prepared.
+2020-04-26 18:44:16 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 18:44:16 INFO  springAppName_IS_UNDEFINED main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-26 18:44:16 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-26 18:44:16 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-04-26 18:44:18 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2020-04-26 18:44:18 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8501"]
+2020-04-26 18:44:18 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8501 (http) with context path ''
+2020-04-26 18:44:19 INFO  springAppName_IS_UNDEFINED main cc.seven.tx.manager.SevenTxManagerApplication Started SevenTxManagerApplication in 15.071 seconds (JVM running for 15.839)
+2020-04-26 18:44:20 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcServerInitializer Socket started on 127.0.0.1:8888 
+2020-04-26 18:44:20 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x4501435c] REGISTERED
+2020-04-26 18:44:20 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x4501435c] BIND: /127.0.0.1:8888
+2020-04-26 18:44:20 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x4501435c, L:/127.0.0.1:8888] ACTIVE
+2020-04-26 18:44:20 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-04-26 18:44:20 INFO  springAppName_IS_UNDEFINED main io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-04-26 18:44:20 INFO  springAppName_IS_UNDEFINED main com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 2, max machine id is: 2251799813685246
+2020-04-26 18:45:45 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x4501435c, L:/127.0.0.1:8888] READ: [id: 0x4e5ed1de, L:/127.0.0.1:8888 - R:/127.0.0.1:53293]
+2020-04-26 18:45:45 INFO  springAppName_IS_UNDEFINED nioEventLoopGroup-4-1 io.netty.handler.logging.LoggingHandler [id: 0x4501435c, L:/127.0.0.1:8888] READ COMPLETE
+2020-04-26 18:45:45 INFO  springAppName_IS_UNDEFINED tm-rpc-service-0 com.codingapi.txlcn.tm.txmsg.transaction.InitClientService Registered TC: seven-admin-server:8201
+2020-04-26 18:45:45 INFO  springAppName_IS_UNDEFINED tm-rpc-service-0 com.codingapi.txlcn.tm.support.service.impl.ManagerServiceImpl Acquired machine id 3, max machine id is: 2251799813685246
+2020-04-26 18:45:45 INFO  springAppName_IS_UNDEFINED tm-rpc-service-1 com.codingapi.txlcn.tm.txmsg.transaction.QueryTMClusterExecuteService Query TM cluster. [127.0.0.1:8888]

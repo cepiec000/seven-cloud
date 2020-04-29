@@ -1,0 +1,28 @@
+2020-04-28 10:22:32 ERROR seven-auth main org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8101 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8101 or configure this application to listen on another port.
+
+2020-04-28 10:23:45 ERROR seven-auth main org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8101 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8101 or configure this application to listen on another port.
+

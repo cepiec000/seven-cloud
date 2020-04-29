@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: seven-cloud-admin
+  cloud:
+    nacos:
+      config:
+        server-addr: http://127.0.0.1:8001
+        group: DEFAULT_GROUP
+        prefix: seven-cloud-admin
+        file-extension: yaml
+
+logging:
+  level:
+    com:
+      alibaba:
+        cloud:
+          nacos:
+            client:
+              NacosPropertySourceBuilder: error

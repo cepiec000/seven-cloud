@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cc.seven.cloud</groupId>
+    <artifactId>seven-cloud</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>seven-gateway</module>
+        <module>seven-common</module>
+        <module>seven-admin</module>
+        <module>seven-tx-manager</module>
+        <module>seven-auth</module>
+        <module>seven-apm</module>
+        <module>seven-server</module>
+        <module>seven-job</module>
+    </modules>
+
+    <name>seven-cloud</name>
+    <description>SEVEN-Cloud：Spring Cloud，Spring Security OAuth2 微服务权限管理系统</description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.5.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
+        <com-alibaba-cloud.version>2.2.1.RELEASE</com-alibaba-cloud.version>
+        <codingapi.txlcn.version>5.0.2.RELEASE</codingapi.txlcn.version>
+        <!--alibaba json库-->
+        <fastjson.version>1.2.68</fastjson.version>
+        <!--xml解析-->
+        <xml-api.version>1.4.01</xml-api.version>
+        <!--ip定位库-->
+        <ip2region.version>1.7.2</ip2region.version>
+        <guava.version>27.0-jre</guava.version>
+        <mybatis-plus.version>3.3.1</mybatis-plus.version>
+        <mysql-version>8.0.19</mysql-version>
+        <!--多数据源 动态切换-->
+        <dynamic-datasource.version>3.0.0</dynamic-datasource.version>
+        <!--数据库监控-->
+        <p6spy.version>3.9.0</p6spy.version>
+        <spring-boot-admin.version>2.2.0</spring-boot-admin.version>
+        <easy-captcha.version>1.6.2</easy-captcha.version>
+        <logstash-logback-encoder.version>6.3</logstash-logback-encoder.version>
+        <!--史上最全的整合第三方登录的开源库。
+        目前已支持Github、Gitee、微博、钉钉、百度、Coding、
+        腾讯云开发者平台、OSChina、支付宝、 QQ、微信开放平台、
+        微信公众平台、淘宝、Google、Facebook、抖音、领英、小米、微软、今日头条、
+        Teambition、StackOverflow、Pinterest、人人、华为、 企业微信、
+        酷家乐、Gitlab、美团、饿了么和推特等第三方平台的授权登录。 Login, so easy!-->
+        <justauth.version>1.2.1</justauth.version>
+        <!--jwt授权框架-->
+        <jjwt.version>0.9.1</jjwt.version>
+        <!--knife4j swagger 增强框架-->
+        <knife4j.version>2.0.2</knife4j.version>
+        <springfox-swagger2>2.9.2</springfox-swagger2>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${com-alibaba-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- 分布式事务框架-->
+            <dependency>
+                <groupId>com.codingapi.txlcn</groupId>
+                <artifactId>txlcn-tc</artifactId>
+                <version>${codingapi.txlcn.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.codingapi.txlcn</groupId>
+                <artifactId>txlcn-tm</artifactId>
+                <version>${codingapi.txlcn.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.codingapi.txlcn</groupId>
+                <artifactId>txlcn-txmsg-netty</artifactId>
+                <version>${codingapi.txlcn.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

@@ -1,0 +1,247 @@
+2020-04-29 10:11:24 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:25 INFO  seven-server-test main com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor LOCAL_SNAPSHOT_PATH:C:\Users\chendongdong\nacos\config
+2020-04-29 10:11:25 INFO  seven-server-test main com.alibaba.nacos.client.config.impl.Limiter limitTime:5.0
+2020-04-29 10:11:26 INFO  seven-server-test main com.alibaba.nacos.client.config.utils.JVMUtil isMultiInstance:false
+2020-04-29 10:11:26 INFO  seven-server-test main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='seven-server-test.yaml,DEFAULT_GROUP'}, NacosPropertySource {name='seven-server-test,DEFAULT_GROUP'}]}
+2020-04-29 10:11:26 INFO  seven-server-test main cc.seven.server.test.TestServerApplication No active profile set, falling back to default profiles: default
+2020-04-29 10:11:28 INFO  seven-server-test main org.springframework.cloud.context.scope.GenericScope BeanFactory id=f7b12bd1-50f5-3f60-831a-8b9e15c45d92
+2020-04-29 10:11:28 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e9534916] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@48632f69' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8202 (http)
+2020-04-29 10:11:29 INFO  seven-server-test main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8202"]
+2020-04-29 10:11:29 INFO  seven-server-test main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-04-29 10:11:29 INFO  seven-server-test main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-29 10:11:29 INFO  seven-server-test main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-04-29 10:11:29 INFO  seven-server-test main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3500 ms
+2020-04-29 10:11:30 INFO  seven-server-test main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-29 10:11:30 INFO  seven-server-test main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4bff28e7
+2020-04-29 10:11:31 INFO  seven-server-test main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-29 10:11:31 INFO  seven-server-test main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2020-04-29 10:11:31 INFO  seven-server-test main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2020-04-29 10:11:31 INFO  seven-server-test main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource detect P6SPY plugin and enabled it
+2020-04-29 10:11:31 INFO  seven-server-test main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-04-29 10:11:31 INFO  seven-server-test main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-04-29 10:11:31 INFO  seven-server-test main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource [base] wrap p6spy plugin
+2020-04-29 10:11:31 INFO  seven-server-test main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [base] success
+2020-04-29 10:11:31 INFO  seven-server-test main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2020-04-29 10:11:31 INFO  seven-server-test main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-29 10:11:33 INFO  seven-server-test main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2020-04-29 10:11:34 INFO  seven-server-test main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2020-04-29 10:11:34 INFO  seven-server-test main com.codingapi.txlcn.tc.corelog.H2DbHelper Init H2 DATABASE at D:\ideaWorks\sevendependencies\seven-cloud\.txlcn\seven-server-test-8202
+2020-04-29 10:11:34 INFO  seven-server-test main com.codingapi.txlcn.logger.db.LogDbProperties TxLogger used user's config.
+2020-04-29 10:11:34 INFO  seven-server-test main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-29 10:11:34 INFO  seven-server-test main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 10:11:35 INFO  seven-server-test main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-29 10:11:36 INFO  seven-server-test main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-04-29 10:11:38 INFO  seven-server-test main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 21 endpoint(s) beneath base path '/actuator'
+2020-04-29 10:11:38 INFO  seven-server-test main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8202"]
+2020-04-29 10:11:38 INFO  seven-server-test main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8202 (http) with context path ''
+2020-04-29 10:11:38 INFO  seven-server-test main com.alibaba.nacos.client.naming [BEAT] adding beat: {"cluster":"DEFAULT","ip":"172.30.37.142","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8202,"scheduled":false,"serviceName":"DEFAULT_GROUP@@seven-server-test","stopped":false,"weight":1.0} to beat map.
+2020-04-29 10:11:38 INFO  seven-server-test main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@seven-server-test with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"172.30.37.142","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8202,"weight":1.0}
+2020-04-29 10:11:38 INFO  seven-server-test main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP seven-server-test 172.30.37.142:8202 register finished
+2020-04-29 10:11:39 INFO  seven-server-test main cc.seven.server.test.TestServerApplication Started TestServerApplication in 16.733 seconds (JVM running for 17.667)
+2020-04-29 10:11:39 INFO  seven-server-test main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(/127.0.0.1:8888) - count 1
+2020-04-29 10:11:40 INFO  seven-server-test Thread-18 com.codingapi.txlcn.tc.txmsg.TCSideRpcInitCallBack Send init message to TM[/127.0.0.1:8888]
+2020-04-29 10:11:40 INFO  seven-server-test main com.codingapi.txlcn.tc.corelog.txc.TxcLogHelper Txc log table finish (H2 DATABASE)
+2020-04-29 10:11:40 INFO  seven-server-test main com.codingapi.txlcn.tc.corelog.aspect.AspectLogHelper Aspect log table finished (H2 DATABASE)
+2020-04-29 10:11:40 INFO  seven-server-test main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-server-test+DEFAULT_GROUP
+2020-04-29 10:11:40 INFO  seven-server-test main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-server-test, group=DEFAULT_GROUP, cnt=1
+2020-04-29 10:11:40 INFO  seven-server-test main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] seven-server-test.yaml+DEFAULT_GROUP
+2020-04-29 10:11:40 INFO  seven-server-test main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=seven-server-test.yaml, group=DEFAULT_GROUP, cnt=1
+2020-04-29 10:11:40 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:11:41 INFO  seven-server-test Thread-18 com.codingapi.txlcn.tc.txmsg.TCSideRpcInitCallBack Finally, determined dtx time is 8000ms, tm rpc timeout is 1000 ms, machineId is 58
+2020-04-29 10:11:41 INFO  seven-server-test Thread-18 com.codingapi.txlcn.tc.txmsg.TMSearcher Searching for more TM...
+2020-04-29 10:11:41 INFO  seven-server-test Thread-18 com.codingapi.txlcn.tc.txmsg.TMSearcher TC[seven-server-test:8202] established TM cluster successfully!
+2020-04-29 10:11:41 INFO  seven-server-test Thread-18 com.codingapi.txlcn.tc.txmsg.TMSearcher TM cluster's size: 1
+2020-04-29 10:12:10 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:12:40 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:13:09 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:13:39 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:14:08 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:14:38 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:15:07 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:15:37 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:16:06 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:16:36 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:17:05 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:17:35 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:18:04 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:18:34 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:19:03 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:19:33 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:20:02 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:20:32 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:21:01 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:21:31 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:22:00 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:22:30 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:22:59 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:23:28 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:23:58 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:24:27 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:24:57 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:25:26 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:25:56 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:26:25 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:26:55 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:27:24 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:27:54 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:28:23 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:28:53 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:29:22 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:29:52 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:30:21 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:30:51 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:31:20 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:31:50 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:32:19 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:32:49 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:33:18 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:33:48 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:34:17 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:34:47 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:35:16 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:35:46 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:36:15 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:36:45 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:37:14 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:37:44 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:38:13 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:38:43 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:39:12 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:39:42 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:40:11 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:40:41 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:41:10 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:41:40 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:42:09 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:42:39 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:43:08 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:43:38 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:44:07 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:44:37 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:45:06 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:45:36 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:46:05 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:46:35 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:47:04 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:47:34 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:48:03 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:48:33 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:49:02 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:49:32 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:50:01 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:50:31 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:51:00 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:51:30 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:52:00 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:52:29 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:52:59 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:53:28 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:53:58 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:54:27 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:54:57 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:55:26 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:55:56 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:56:25 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:56:55 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:57:24 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:57:54 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:58:23 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:58:53 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:59:22 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 10:59:52 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:00:21 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:00:51 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:01:20 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:01:50 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:02:19 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:02:49 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:03:18 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:03:48 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:04:17 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:04:47 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:05:16 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:05:46 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:06:15 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:06:45 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:07:14 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:07:44 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:08:13 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:08:43 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:09:12 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:09:42 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:10:11 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:10:41 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:11:10 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:11:40 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:12:09 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:12:39 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:13:08 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:13:38 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:14:07 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:14:37 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:15:06 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:15:36 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:16:05 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:16:35 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:17:04 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:17:34 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:18:03 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:18:33 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:19:02 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:19:32 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:20:01 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:20:31 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:21:00 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:21:30 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:21:59 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:22:29 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:22:58 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:23:28 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:23:57 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:24:27 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:24:56 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:25:26 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:25:55 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:26:25 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:26:54 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:27:24 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:27:53 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:28:23 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:28:53 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:29:22 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:29:52 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:30:21 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:30:51 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:31:20 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:31:50 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:32:19 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:32:49 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:33:18 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:33:48 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:34:17 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:34:47 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:35:16 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:35:46 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:36:15 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:36:45 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:37:14 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:37:44 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:38:13 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:38:43 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:39:12 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:39:42 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:40:11 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:40:41 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:41:10 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:41:40 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
+2020-04-29 11:42:09 INFO  seven-server-test com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8001 com.alibaba.nacos.client.config.impl.ClientWorker get changedGroupKeys:[]
